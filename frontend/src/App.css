@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  background-color: rgb(213, 241, 252);
+}
+
+.page {
+  padding: 20px;
+  background-color: rgb(213, 241, 252);
+}
+
+
+
+#nav {
+  background-color: white;
+  border-bottom: 1px solid rgb(199, 219, 228);
+}
+
+.nav-item {
+  float: left;
+  margin: 0 10px;
+}
+
+.ac {
+  font-weight: 650;
+}
+
+.navl {
+}
+
+.navl :hover {
+  color: rgb(11, 51, 112);
+  text-decoration: underline;
+}
+
+.card {
+  width: 400px;
+  margin: 20px auto;
+  border-color: rgb(172, 194, 204);
+}
+
+img {
+  border: 1px solid rgb(155, 169, 175);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+}
+
+.label {
+  margin: 0 12px 0 0;
+  float: left;
+}
+
+
+.checks {
+  position: fixed;
+  padding: 4px 9px 0 9px;
+  z-index: 3;
+  border-radius: 10px;
+  background-color: rgba(1,1,90,0.1);
+}
+
+.hline { margin: 3px 0; }
+.hline2 { margin: 9px 0; }
+
+.analyticstable {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+}
+
+.analyticstable, .analyticstable td, .analyticstable tr {
+  border: 1px solid black;
+}
+
+.analyticstable td {
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+.tabletitle {
+  font-weight: bolder;
+  background-color: rgb(230,230,230);
+}
